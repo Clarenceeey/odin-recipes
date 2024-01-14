@@ -4,22 +4,19 @@
         <meta charset = 'UTF-8'>
         <meta name = 'viewport' contents = 'width = device-width, initial-scale = 1.0'>
         <title>Odin Project Recipes</title>
-        <style>
-            .line {
-            width: 1000px; /* set the desired length of the line */
-            height: 1px; /* set the height of the line */
-            font-size: large;
-            }
-        </style>
+        <link href = './styles/index-style.css' rel = 'stylesheet'>
     </head>
 
     <body>
-        <div class = line>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><p>My favourite chocolate cake recipe can be viewed <a href = "./recipes/chocolate-cake.html" target= '_blank' rel = 'noopener noreferrer'>here</a></p></li>
-            <li><p>A christmas classic, sweedish meetballs, can be viewed <a href = "./recipes/sweedish-meetballs.html" target= '_blank' rel = 'noopener noreferrer'>here</a></p></li>
-        </ul>
+        <div class = 'line'>
+        <h1 class = 'header'>Odin Recipes</h1>
+        <div class = 'dropdown'>
+            <div class = "menu">Menu</div>
+            <ul class = 'options'>
+                <li><a href = "./recipes/chocolate-cake.html" target= '_blank' rel = 'noopener noreferrer'>Chocolate Cake</a></li>
+                <li><a href = "./recipes/sweedish-meetballs.html" target= '_blank' rel = 'noopener noreferrer'>Swedish Meatballs</a></li>
+            </ul>
+            </div>
         </div>
         
     </body>
